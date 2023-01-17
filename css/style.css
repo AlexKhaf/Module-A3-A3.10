@@ -462,6 +462,7 @@ header {
 	text-align: center;
 	font-weight: 600;
   font-size: 42px;
+/*  color: #585858;*/
 	margin: 0;
 	margin-bottom: 30px;
 }
@@ -484,6 +485,7 @@ header {
 	border-radius: 5px;
 	background-color: #FFF;
 	color: black;
+	border: none;
 }
 .email-form>button {
 	width: 215px;
@@ -491,6 +493,10 @@ header {
 	padding: 0 35px;
 	margin-right: 22px;
 	border-radius: 5px;
+	font-style: normal;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
 	background-color: red;
 	color: #FFF;
 }
@@ -506,6 +512,29 @@ header {
   padding-bottom: 110px;
 	color: #000;
 /*	border: solid;*/
+}
+.section6-wrapper>h2 {
+	font-style: normal;
+	font-size: 42px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #585858;
+}
+.section6-wrapper>p {
+	width: 49%;
+	font-style: normal;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 50px;
+}
+.red-line {
+	width: 120px;
+	height: 3px;
+	background-color: #ff2d2d;
+	margin-left: 0;
+  margin-bottom: 75px;
+
+	
 }
 .section6-form {
 	width: 100%;
@@ -528,11 +557,15 @@ header {
 	margin-bottom: 45px;
 /*	border: solid;*/
 	background-color: #f3f3f3;
+	border: none;
 }
 .section6-form-left>button {
 	width: 100%;
 	height: 70px;
 	margin: 0;
+	font-style: normal;
+	font-size: 18px;
+	font-weight: 700;
 /*	padding: 35px 55px;*/
 /*	margin-bottom: 45px;*/
 /*	border: solid;*/
@@ -557,6 +590,7 @@ header {
 	margin-right: 50px;
 	border-radius: 5px;
 /*	border: solid;*/
+	border: none;
 }
 .section6-name>input:nth-of-type(2) {
 	width:150px;
@@ -568,6 +602,7 @@ header {
 	margin-bottom: 45px;
 	border-radius: 5px;
 /*	border: solid;*/
+	border: none;
 }
 .section6-form-right {
 	display: flex;
@@ -578,10 +613,24 @@ header {
 	padding-left: 40px;
 /*	border: solid;*/
 }
+.section6-form-right>h2 {
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.section6-form-right>p {
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 400;
+}
 footer {
 	max-width: 1250px;
 	height: 90px;
 	margin: 0 auto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
 	padding-top: 20px;
 	display: flex;
 	justify-content: space-between;
